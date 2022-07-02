@@ -3,3 +3,63 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header h1 {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+}
+
+#featured-property figure {
+  margin: auto;
+  width: fit-content;
+}
+
+#featured-property img {
+  margin: auto;
+  width: fit-content;
+  padding: 10px;
+}
+
+header nav {
+  margin: auto;
+  width: fit-content;
+}
+
+#nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(35, 177, 184);
+}
+
+figcaption {
+  margin: auto;
+  width: fit-content;
+  font-size: smaller;
+}
+
+#featured-property p {
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 18px;
+  width: 800px;
+  text-align: center;
+}
+
+#featured-property p + p {
+  margin-top: 30px;
+}
+
+/* Looks good till here */
+
+#details {
+  display: flex;
+  padding-bottom: 10px;
+} 
+
+#details div {
+  width: 25%;
+  float: left;
+  text-align: center;
+  background-color: red;
+}
